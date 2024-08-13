@@ -57,7 +57,16 @@ scipy
 Then, run the following command to install the dependencies:
 pip install -r requirements.txt
 
-**4. Verify Installation:**
+**4. Set Up SQLite Database:**
+- Download the AT-HYG.db file from the dataset provided database file.
+- Open SQLite Studio.
+- Go to Database > Add Database and select the AT-HYG.db file you downloaded.
+- Ensure the database is properly loaded and accessible in SQLite Studio.
+
+**4. Run the Jupyter Notebook:**
+- Launch Jupyter Notebook by running:
+
+**5. Verify Installation:**
 To verify that the dependencies are correctly installed, you can run a Python script or open a Jupyter Notebook and import the libraries to ensure they are available.
 
 ## Usage
