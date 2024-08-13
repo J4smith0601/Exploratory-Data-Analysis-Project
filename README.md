@@ -39,9 +39,11 @@ To run this project locally, follow these steps:
 **1. Clone the Repository:**
 Open a terminal or command prompt and run the following command to clone the repository:
 git clone (https://github.com/j4smith0601/Exploratory-Data-Analysis-Project.git)]
+
 **2. Navigate to the Project Directory:**
 Change your directory to the project folder:
 cd [Exploratory-Data-Analysis-Project]
+
 **3. Install Dependencies:**
 Ensure you have Python installed on your system. Then, install the required libraries using pip. Create a file named requirements.txt in your project directory if it does not already exist, and list the following libraries in it:
 sqlite3
