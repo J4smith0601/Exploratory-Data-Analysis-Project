@@ -1,12 +1,15 @@
-# Exploratory Data Analysis Project ReadME
+# Stellar Characteristics in the Milky Way: Unravelling Galactic Mysteries ReadME
 
-## Title:
+## Title: **Stellar Characteristics in the Milky Way: Unravelling Galactic Mysteries**
+![Description of the image](https://github.com/J4smith0601/Stellar-Characteristics-in-the-Milky-Way-Unraveling-Galactic-Mysteries/raw/main/Stellar%20Characteristics%20in%20the%20Milky%20Way%20Unraveling%20Galactic%20Mysteries%20.png)
 
-**Stellar Characteristics in the Milky Way: Unravelling Galactic Mysteries**
+---
 
 ## Project Overview:
 
 This project, undertaken as the first assignment for the Data Science & AI course with the Institute of Data and Auckland University of Technology, focuses on analysing the intrinsic properties of stars within the Milky Way using data sourced from the AT-HYG database. The goal was to translate a broad astronomical problem into a data science problem by selecting and processing a relevant dataset.**  The analysis began by identifying and excluding 60,745 entries with missing positional and distance data, resulting in a final sample of 2,491,418 stars. Key features such as absolute magnitude, luminosity, mass, radius, and temperature were engineered from the dataset. Initial descriptive statistics suggested potential skewness in the data, which was further examined using the Shapiro-Wilk test along with measures of skewness and kurtosis. Despite Box-Cox transformations aimed at normalising the data, non-normal distributions persisted across all variables.  Visual inspections through histograms, Q-Q plots, and box plots corroborated these findings. Additionally, a bar chart of spectral class frequencies indicated a distribution aligned with known astronomical patterns, supporting the dataset’s representativeness. Correlation analysis uncovered significant relationships among intrinsic stellar properties, highlighting potential avenues for further research.  The spatial distribution of these properties across the Milky Way was also explored, providing insights into their variability within the galaxy.  **Overall, this exploratory data analysis offers a robust foundation for understanding the distribution and interrelationships of stellar properties, setting the stage for future research into stellar dynamics and galactic structure. The assignment demonstrated the application of data wrangling, feature engineering, and exploratory data analysis techniques acquired throughout the course.
+
+--- 
 
 ## Technologies Used
 
@@ -31,6 +34,8 @@ This project, undertaken as the first assignment for the Data Science & AI cours
 - **VS Code**: The IDE used for coding and managing the project.
 - **Git**: For version control and tracking changes.
 - **GitHub**: Hosted the repository and supported collaboration.
+
+--- 
 
 ## Installation Instructions
 
@@ -66,9 +71,13 @@ scipy
 **5. Verify Installation:**
 To verify that the dependencies are correctly installed, you can run a Python script or open a Jupyter Notebook and import the libraries to ensure they are available.
 
+---
+
 ## Usage
 
 This project demonstrates the exploratory data analysis (EDA) capabilities acquired during the Data Science & AI course. It is designed to showcase my skills in data manipulation, statistical analysis, and visualization to potential stakeholders, future employers, and other interested parties.
+
+---
 
 ## Results and Analysis 
 
@@ -88,9 +97,13 @@ Correlation analysis of the key variables revealed important relationships among
 
 In summary, the exploratory data analysis revealed valuable insights into the distribution and relationships among key stellar properties in the AT-HYG database. Despite the challenges posed by non-normal distributions, the analysis highlighted the complex and varied nature of stellar populations. The findings from the spectral class distribution and spatial analysis align with known astronomical phenomena, reinforcing the representativeness and reliability of the dataset.
 
+---
+
 ## License
 
 This project is not licensed under any specific license. You are free to use, modify, and distribute this project as you see fit. However, please note that this project is intended for personal use and portfolio showcasing purposes. If you share or distribute this project, please ensure that any derivative works or modifications adhere to the same principles of personal use and respect for the original work.
+
+---
 
 ## Acknowledgements
 
@@ -99,11 +112,15 @@ This project is not licensed under any specific license. You are free to use, mo
 - I would also like to acknowledge the use of various Python libraries, including Pandas, NumPy, Seaborn, and Matplotlib, which were instrumental in data manipulation and visualization.
 - No external funding or grants were received for this project.
 
+---
+
 ### Data Source
 
 The original dataset used in this project was obtained from the HYG Database on GitHub. This database provides comprehensive stellar data, which served as the foundation for the analysis conducted in this project.
 
 You can visit the HYG Database repository for more information about the data, including its structure and additional details.
+
+---
 
 ## Contact Information
 
