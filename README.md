@@ -45,7 +45,7 @@ Change your directory to the project folder:
 cd [Stellar-Characteristics-in-the-Milky-Way-Unraveling-Galactic-Mysteries]
 
 **3. Install Dependencies:**
-Ensure you have Python installed on your system. Then, install the required libraries using pip. Create a file named requirements.txt in your project directory if it does not already exist, and list the following libraries in it:
+Ensure you have Python installed on your system. Then, install the required libraries using pip.
 sqlite3
 pandas
 numpy
@@ -54,9 +54,6 @@ seaborn
 matplotlib
 scipy
 
-Then, run the following command to install the dependencies:
-pip install -r requirements.txt
-
 **4. Set Up SQLite Database:**
 - Download the AT-HYG.db file from the dataset provided database file.
 - Open SQLite Studio.
@@ -64,7 +61,7 @@ pip install -r requirements.txt
 - Ensure the database is properly loaded and accessible in SQLite Studio.
 
 **4. Run the Jupyter Notebook:**
-- Launch Jupyter Notebook by running:
+- Launch Jupyter Notebook and run all
 
 **5. Verify Installation:**
 To verify that the dependencies are correctly installed, you can run a Python script or open a Jupyter Notebook and import the libraries to ensure they are available.
